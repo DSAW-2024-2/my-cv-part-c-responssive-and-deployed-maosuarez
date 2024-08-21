@@ -1,0 +1,142 @@
+* {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+}
+
+body {
+  background-color: #132a13;
+  display: flex;
+  justify-content: center;
+}
+
+.contenedor {
+  display: flex;
+  justify-content: flex-end;
+  background-color: aliceblue;
+  padding: 20px;
+  max-width: 1000px;
+  width: 100%;
+  margin-top: 30px;
+  padding: 0 auto;
+  gap: 5px;
+}
+
+.contenedor-izq {
+  background-color: #d5e18c;
+  width: 400px;
+  border-radius: 40px;
+  padding: 0;
+}
+
+.contenedor-der {
+  background-color: #d5e18c;
+  max-width: 600px;
+  padding-top: 40px;
+}
+
+.titulo {
+  display: flex;
+  background-color: #a7bc68;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 30px;
+  padding-top: 10px;
+  border-bottom-left-radius: 500px;
+  border-bottom-right-radius: 500px;
+
+  h1 {
+    font-size: 4rem;
+    color: #31572c;
+  }
+
+  img {
+    margin-top: 50px;
+    width: 200px;
+    border-radius: 100px;
+    border: 12px solid white;
+  }
+}
+
+.contancto {
+  padding: 40px;
+  font-size: 20px;
+  background-color: #d5e18c;
+  h4 {
+    color: rgb(4, 95, 58);
+    padding-top: 30px;
+  }
+  span {
+    color: rgb(66, 171, 82);
+  }
+}
+
+.fin-container {
+  background-color: #a7bc68;
+  padding-bottom: 10px;
+  padding-top: 80px;
+  margin-top: 15px;
+  border-top-left-radius: 500px;
+  border-top-right-radius: 500px;
+  padding-bottom: 300px;
+  align-items: center;
+}
+
+div {
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 40px;
+}
+
+p {
+  font-size: 1.25rem;
+  padding: 10px;
+}
+
+ol,
+ul {
+  margin: 20px auto;
+}
+
+ol {
+  list-style-type: decimal;
+}
+
+li {
+  color: rgb(33, 31, 31);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.titulo-text {
+  padding-right: 40px;
+  padding-left: 40px;
+  padding-top: 40px;
+  border: 0;
+}
+
+h2 {
+  font-size: 2rem;
+  color: #31572c;
+}
+
+@media (max-width: 800px) {
+  .contenedor {
+    flex-direction: column;
+    align-items: center;
+  }
+  .contenedor-izq {
+    width: auto;
+    max-width: 600px;
+  }
+  .contenedor-der {
+    width: auto;
+    max-width: 600px;
+  }
+  .fin-container {
+    padding-top: 150px;
+    padding-bottom: 10px;
+    h2 {
+      text-align: center;
+    }
+  }
+}
